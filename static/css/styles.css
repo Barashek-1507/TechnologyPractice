@@ -1,0 +1,9 @@
+body{
+font-family: Verdana;
+background-color: "#F0FFFF";
+}
+h1{color:navy;}
+img{width:1000px;}
+.fig {
+    text-align: center; /* Выравнивание по центру */
+   }

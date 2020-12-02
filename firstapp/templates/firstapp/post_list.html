@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>LOX</title>
+
+</head>
+<body>
+<h1 class="fig">
+    Это главная страничка нашего вебсайта
+</h1>
+<p class="fig">
+    <img src="{% static 'images/Zakynthos.jpg' %}" alt="My image"/>
+</p>
+<p class="fig">
+    <a href="http://127.0.0.1:8000/list/">Список постов</a>
+</p>
+</body>
+</html>

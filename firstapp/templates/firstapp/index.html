@@ -1,0 +1,32 @@
+<!DOCTYPE html>{% load staticfiles %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="utf-8"/>
+    <title>Посты</title>
+</head>
+<body class="container">
+{% if text.count > 0 %}
+<br><br>
+<h2 align="center">Список постов</h2>
+<br><br>
+<table>
+    {% for post in text %}
+    <div class="card-group">
+        <div class="card border-info mb-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{ post.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ post.author }}</h6>
+                <p class="card-text">{{ post.ext }}</p>
+            </div>
+            <div class="card-footer text-muted">
+                {{ post.published_date }}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</table>
+{% endif %}
+</body>
+</html>
