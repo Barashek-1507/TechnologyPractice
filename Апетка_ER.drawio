@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T08:30:17.335Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="SM1SkRupRJln6qy4YWmr" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T08:32:51.581Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="yqaYYkfkXz4d5dJ51mgM" version="14.1.9" type="github">
   <diagram id="KguO-HYiw2e8zBTugsg_" name="Страница 1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="40" y="120" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tPiVp-EfuXoKE001sh_u-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="330" y="80" width="180" height="150" as="geometry" />
+          <mxGeometry x="360" y="70" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="tPiVp-EfuXoKE001sh_u-20" value="Department_head" style="shape=table;html=1;whiteSpace=wrap;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;" vertex="1" parent="tPiVp-EfuXoKE001sh_u-31">
           <mxGeometry width="180" height="150" as="geometry" />
